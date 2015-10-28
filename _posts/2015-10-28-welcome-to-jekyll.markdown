@@ -4,22 +4,14 @@ title:  "Welcome to RubyStarters!"
 date:   2015-10-28 11:03:57 +0100
 categories: meta
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I have been using Ruby and Ruby on Rails now for more than 5 years, and whenever I'm asked how to start with Ruby, I struggle. There are lots of materials out there, but getting started with one's development environment is actually quite hard. I would like to see this situation improve by providing a more beginner friendly environment. The tools for the first start will be a tutorials encapsulated in a Docker container - one for Ruby and one for Ruby on Rails - that should be easy to install on Windows, Linux and Mac PCs.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Further more I lately joined a Nodeschool event and I was quite impressed about the for amount of material they have put together. (edited)
 
-Jekyll also offers powerful support for code snippets:
+So I'm currently thinking about including a nodeschool like command line application with at least to lessons. One for starting with Ruby, one for starting with Rails, that should complement each other.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+If you want to see this situation improved as well, join in at 'Ruby Starters' project, where we will to build this environment. I'm not afraid of failing (nor you should be), because we will have lots of options, how we can use and publish all out findings along the way.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+I would be happy to hear your comments on this and even more, if you want to join in and help me with this. I could need help in some many areas, especially from people who have still a beginner's mind, so the matter of experience you have with Docker, Ruby or Rails actually doesn't matter.
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Stefan aka [@informatom](https://twitter.com/informatom)
