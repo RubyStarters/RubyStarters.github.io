@@ -6,7 +6,7 @@ categories: meta
 ---
 I have been using Ruby and Ruby on Rails now for more than 5 years, and whenever I'm asked how to start with Ruby, I struggle. There are lots of materials out there, but getting started with one's development environment is actually quite hard. I would like to see this situation improve by providing a more beginner friendly environment. The tools for the first start will be a tutorials encapsulated in a Docker container - one for Ruby and one for Ruby on Rails - that should be easy to install on Windows, Linux and Mac PCs.
 
-Further more I lately joined a Nodeschool event and I was quite impressed about the for amount of material they have put together. (edited)
+Further more I lately joined a Nodeschool event and I was quite impressed about the for amount of material they have put together.
 
 So I'm currently thinking about including a nodeschool like command line application with at least to lessons. One for starting with Ruby, one for starting with Rails, that should complement each other.
 
