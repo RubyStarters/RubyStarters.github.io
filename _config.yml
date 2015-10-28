@@ -1,0 +1,19 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: RubyStarters
+email: stefan.haslinger@informatom.com
+description: > # this means to ignore newlines until "baseurl:"
+  Aim for RubyStarters project is to make getting started with Ruby easy and awesome.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://rubystarters.github.io" # the base hostname & protocol for your site
+twitter_username: none yet
+github_username:  RubyStarters
+
+# Build settings
+markdown: kramdown
