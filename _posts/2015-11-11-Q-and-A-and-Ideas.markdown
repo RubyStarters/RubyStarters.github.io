@@ -9,7 +9,7 @@ We created two repos at our [RubyHabits Meetup](http://www.meetup.com/de/RubyHab
 
 One repo collects all [Questions and Answers](https://github.com/RubyStarters/QandA/issues). Please put your questions there at well!
 
-The second repo we use to collect on ideas for Tutorials, Cheat Sheets and other kinds of instructions. Please contrubite to the 
+The second repo we use to collect on ideas for Tutorials, Cheat Sheets and other kinds of instructions. Please contribute to the 
 [Wiki](https://github.com/RubyStarters/Ideas/wiki) there.
 
 Stefan aka [@informatom](https://twitter.com/informatom)
