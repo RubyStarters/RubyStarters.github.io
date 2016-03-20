@@ -12,4 +12,4 @@ One repo collects all [Questions and Answers](https://github.com/RubyStarters/Qa
 The second repo we use to collect on ideas for Tutorials, Cheat Sheets and other kinds of instructions. Please contribute to the 
 [Wiki](https://github.com/RubyStarters/Ideas/wiki) there.
 
-Stefan aka [@informatom](https://twitter.com/informatom)
+- Stefan aka [@informatom](https://twitter.com/informatom)
