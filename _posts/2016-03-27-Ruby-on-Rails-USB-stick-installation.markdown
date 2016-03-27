@@ -33,6 +33,48 @@ quite a lot to do for a full blown development machine: We want to see
 Ruby, Ruby On Rails, the database management system PostgresQL, an Apache webserver,
 a decent editor (Atom.io, if possible). A nice addon would be to get offline
 documentation working. To make a long story short: We succeeded by the simple
-means of writing a [bash script](https://github.com/RubyStarters/Ideas/blob/master/bootstrap).   
+means of writing a [bash script](https://github.com/RubyStarters/Ideas/blob/master/bootstrap).
+
+The script is not only idempotent (it doesn't cause any issues to run it
+several times). It further more creates a bash alias @update@ and it introduces
+an update for all components installed. - If we will improve the script in
+future days, you will receive the latest version with the next run of *update*.
+
+We introduced several additional gimmicks: Sonic Pi gets installed as wall as
+the new programming language Crystal, that is quite close to Ruby syntax-wise,
+but in contrast to Ruby it is a compiled and therefore faster language. Keep
+in mind, though, that Crystal is not yet production ready.
+
+To be on the safe side (we install services with the database management system
+and the web server), we enable the uncomplicated firewall in standard configuration.
+That means, that all outgoing traffic is still allowed (you probably want to
+reach external documentation sources), but incoming traffic is blocked.
+
+Lot's of additional libraries are installed, to be able to compile several modules
+in our prefered gems, e.g. to access the database from our Rails applications.
+
+Please read the [bash script](https://github.com/RubyStarters/Ideas/blob/master/bootstrap)
+yourself, it's pretty much self explaining and heavily commented, even for bash
+scripting newbies.
+
+Ruby is installed in three different versions (2.1, 2.2 and 2.3) to be compatible
+to almost all Rails tutorials avaliable out there. We installed different Rails
+versions alongside (latest Rails 3.2 with Ruby 2.1; latest Rails 4.2 with Ruby 2.2
+and latest Rails 5 with Ruby 2.3).
+
+To be able to handle file uploads in our Rals applications we install Paperclip,
+for authentication, we install the famous Devise gem.7
+
+For testing purposes we install Chromium browser alongside Firefox.
+
+We installed - and that's the last Gimmick - the offline documentation browser
+Zeal with offline docs for all our relevant programming languages and tools
+with a [second script](https://github.com/RubyStarters/Ideas/blob/master/zeal-docsets).
+This way documentation for Ruby, Ruby On Rails, Bash, HTML, CSS, SQLite, MySQL, PostgresQL,
+the Twitter Bootstrap CSS framework, Coffeescript, HAML, Jekyll, Less, Apache,
+Markdown, Sass, Font Awesome, Zurb Foundation and semantic UI.
+
+Please give it a try and give feedback. And if you have fun, please talk and
+write about it.
 
 Stefan aka [@informatom](https://twitter.com/informatom)
