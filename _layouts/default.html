@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html>
+{% include head.html %}
+<html lang="{{ site.language }}">
 
-  {% include head.html %}
-
-  <body>
-
+<body>
+  <div class="container-fluid">
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="container">
+      <div class="row ">
+        <div class="col-sm-8">
+          <div class="content">
+            {{ content }}
+          </div>
+        </div>
+        <div id="sidebar" class="col-sm-4">
+          <div class="well">
+            {% include sidebar.html %}
+          </div>
+        </div>
       </div>
-    </div>
+      {% include footer.html %}
+    </div><!-- /.container -->
+  </div><!-- /.container -->
 
-    {% include footer.html %}
-
-  </body>
-
+  <script>
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+  </script>
 </html>

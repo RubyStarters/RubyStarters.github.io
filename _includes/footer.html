@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer id="footer" class="row site-footer">
 
   <div class="wrapper">
 
@@ -15,24 +15,19 @@
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
           {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
+            <li> <a href="https:/github.com/{{ site.github_username }}"<i class="fa fa-github"></i> </li>
           {% endif %}
 
           {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
+            <li> <a href="https:/github.com/{{ site.twitter_username }}"<i class="fa fa-twitter"></i> </li>
           {% endif %}
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description }}</p>
+        <small class="pull-right">Powered by <a href="http://jekyllrb.com/">Jekyll</a>.</small>
       </div>
     </div>
-
   </div>
-
 </footer>
