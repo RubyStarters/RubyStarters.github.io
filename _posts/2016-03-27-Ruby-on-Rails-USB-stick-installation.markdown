@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ruby On Rails USB installation"
+title:  "Ruby On Rails USB Stick Installation"
 date:   2016-03-22 22:16:17 +0100
 categories: installation
 ---
