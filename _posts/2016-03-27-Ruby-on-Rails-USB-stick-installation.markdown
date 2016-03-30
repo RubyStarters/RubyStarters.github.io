@@ -28,23 +28,23 @@ USB sticks always managed to max out the capabilities of all of our USB controll
 speed-wise. A USB stick reached a write speed of 70MBs per second, comparable
 to current spinning hard disks.
 
-We chose a Ubuntu Flavor, that can mimmick several OSes. Ubuntu Mate comes with a tool
-to change it's behaviour to different styles. E.g. Windows users will get a familiar look
+We chose a Ubuntu Flavor, that can mimick several OSes. Ubuntu Mate comes with a tool
+to change it's behavior to different styles. E.g. Windows users will get a familiar look
 and feel choosing the *Redmond* panel layout.
 
 ![Mate Tweak]({{ site.url }}/images/mate-tweak.png){:width="90%"}
 
 While it is quite easy to install Ubuntu Mate on a USB stick, there is still
 quite a lot to do for a full blown development machine: We want to see
-Ruby, Ruby On Rails, the database management system PostgresQL, an Apache webserver,
-a decent editor (Atom.io, if possible). A nice addon would be to get offline documentation working.
+Ruby, Ruby On Rails, the database management system PostgresQL, an Apache web server,
+a decent editor (Atom.io, if possible). A nice add-on would be to get offline documentation working.
 To make a long story short: We succeeded by the simple
 means of writing a [bash script](https://github.com/RubyStarters/Ideas/blob/master/bootstrap).
 
 ![Atom]({{ site.url }}/images/atom.png){:width="90%"}
 
 The script is not only idempotent (it doesn't cause any issues to run it
-several times). It further more creates a bash alias @update@ and it introduces
+several times). It further more creates a bash alias *update* and it introduces
 an update for all components installed. - If we will improve the script in
 future days, you will receive the latest version with the next run of *update*.
 
@@ -65,18 +65,18 @@ To check git repositories a GUI based viewer is always appreciated. We run with 
 ![GitG]({{ site.url }}/images/gitg.png){:width="90%"}
 
 Lot's of additional libraries are installed, to be able to compile several modules
-in our prefered gems, e.g. to access the database from our Rails applications.
+in our preferred gems, e.g. to access the database from our Rails applications.
 
 Please read the [bash script](https://github.com/RubyStarters/Ideas/blob/master/bootstrap)
 yourself, it's pretty much self explaining and heavily commented, even for bash
 scripting newbies.
 
 Ruby is installed in three different versions (2.1, 2.2 and 2.3) to be compatible
-to almost all Rails tutorials avaliable out there. We installed different Rails
+to almost all Rails tutorials available out there. We installed different Rails
 versions alongside (latest Rails 3.2 with Ruby 2.1; latest Rails 4.2 with Ruby 2.2
 and latest Rails 5 with Ruby 2.3).
 
-To be able to handle file uploads in our Rals applications we install Paperclip,
+To be able to handle file uploads in our Rails applications we install Paperclip,
 for authentication, we install the famous Devise gem.7
 
 For testing purposes we install Chromium browser alongside Firefox.
