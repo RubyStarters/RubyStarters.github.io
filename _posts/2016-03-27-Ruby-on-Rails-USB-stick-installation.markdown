@@ -28,12 +28,20 @@ USB sticks always managed to max out the capabilities of all of our USB controll
 speed-wise. A USB stick reached a write speed of 70MBs per second, comparable
 to current spinning hard disks.
 
+We chose a Ubuntu Flavor, that can mimmick several OSes. Ubuntu Mate comes with a tool
+to change it's behaviour to different styles. E.g. Windows users will get a familiar look
+and feel choosing the *Redmond* panel layout.
+
+![Mate Tweak]({{ site.url }}/images/mate-tweak.png){:width="90%"}
+
 While it is quite easy to install Ubuntu Mate on a USB stick, there is still
 quite a lot to do for a full blown development machine: We want to see
 Ruby, Ruby On Rails, the database management system PostgresQL, an Apache webserver,
-a decent editor (Atom.io, if possible). A nice addon would be to get offline
-documentation working. To make a long story short: We succeeded by the simple
+a decent editor (Atom.io, if possible). A nice addon would be to get offline documentation working.
+To make a long story short: We succeeded by the simple
 means of writing a [bash script](https://github.com/RubyStarters/Ideas/blob/master/bootstrap).
+
+![Atom]({{ site.url }}/images/atom.png){:width="90%"}
 
 The script is not only idempotent (it doesn't cause any issues to run it
 several times). It further more creates a bash alias @update@ and it introduces
@@ -45,10 +53,16 @@ the new programming language Crystal, that is quite close to Ruby syntax-wise,
 but in contrast to Ruby it is a compiled and therefore faster language. Keep
 in mind, though, that Crystal is not yet production ready.
 
+![Sonic Pi]({{ site.url }}/images/sonic_pi.png){:width="90%"}
+
 To be on the safe side (we install services with the database management system
 and the web server), we enable the uncomplicated firewall in standard configuration.
 That means, that all outgoing traffic is still allowed (you probably want to
 reach external documentation sources), but incoming traffic is blocked.
+
+To check git repositories a GUI based viewer is always appreciated. We run with GitG
+
+![GitG]({{ site.url }}/images/gitg.png){:width="90%"}
 
 Lot's of additional libraries are installed, to be able to compile several modules
 in our prefered gems, e.g. to access the database from our Rails applications.
@@ -73,6 +87,8 @@ with a [second script](https://github.com/RubyStarters/Ideas/blob/master/zeal-do
 This way documentation for Ruby, Ruby On Rails, Bash, HTML, CSS, SQLite, MySQL, PostgresQL,
 the Twitter Bootstrap CSS framework, Coffeescript, HAML, Jekyll, Less, Apache,
 Markdown, Sass, Font Awesome, Zurb Foundation and semantic UI.
+
+![Zeal]({{ site.url }}/images/zeal.png){:width="90%"}
 
 Please give it a try and give feedback. And if you have fun, please talk and
 write about it.
