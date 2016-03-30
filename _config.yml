@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Aim for RubyStarters project is to make getting started with Ruby easy and awesome.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rubystarters.github.io" # the base hostname & protocol for your site
-url: "http://localhost:4000"
+#url: "http://localhost:4000"
 twitter_username: none yet
 github_username:  RubyStarters
 
